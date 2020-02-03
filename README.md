@@ -2,4 +2,4 @@
 
 ### Image of the project
 
-![alt text](images/projeto concluido.PNG)
+![alt text](./images/projeto_concluido.PNG)
