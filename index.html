@@ -1,269 +1,349 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Twitter clone</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="./style.css" />
-  <title>Document</title>
-</head>
-
-<body>
-  <header id="main-header">
-    <div class="content">
-      <nav>
-        <ul>
-          <li><img src="./images/home.svg" alt="Home">Home</li>
-          <li><img src="./images/notification.svg" alt="Home">Notificações</li>
-          <li><img src="./images/message.svg" alt="Home">Mensagens</li>
-        </ul>
-      </nav>
-      <img src="./images/logo.svg" alt="logo twitter" />
-      <div class="side">
-        <input type="text" placeholder="Busque no twitter">
-        <img src="./images/avatar.png" alt="avatar">
-        <button>Tweet</button>
-      </div>
-    </div>
-  </header>
-
-  <div class="banner"></div>
-
-  <div class="bar">
-    <div class="content">
-      <ul>
-        <li class="active">
-          <span>Tweets</span>
-          <strong>123</strong>
-        </li>
-        <li>
-          <span>Seguindo</span>
-          <strong>657</strong>
-        </li>
-        <li>
-          <span>Seguidores</span>
-          <strong>798</strong>
-        </li>
-        <li>
-          <span>Favoritos</span>
-          <strong>3645</strong>
-        </li>
-      </ul>
-      <div class="actions">
-        <button>Seguir</button>
-        <img src="./images/more.svg" alt="Mais">
-      </div>
-    </div>
-  </div>
-
-  <div class="wrapper-content content">
-    <aside class="profile">
-      <img src="./images/avatar.png" class="avatar" alt="avatar">
-      <h1>Duane Gabriel</h1>
-      <span>@duh.dev</span>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque perferendis nisi ducimus ut dicta ipsa,
-        quos nobis necessitatibus magnam harum cupiditate sequi. Esse recusandae nulla error hic quam itaque officia.
-      </p>
-      <ul class="list">
-        <li>
-          <img src="./images/place.svg" alt="Ícone de localização">
-          SP, Brasil
-        </li>
-        <li>
-          <img src="./images/url.svg" alt="Ícone de localização">
-          meusite.com
-        </li>
-        <li>
-          <img src="./images/joined.svg" alt="Ícone de localização">
-          Entrou em Jan de 2020
-        </li>
-        <li>
-          <img src="./images/born.svg" alt="Ícone de localização">
-          Nasceu em maio de 1999
-        </li>
-      </ul>
-
-      <div class="widget followers">
-        <strong> <img src="./images/followers.svg" alt="Ícone de seguidores">73 seguidores que você conhece</strong>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-      </div>
-
-      <div class="widget images">
-        <strong> <img src="./images/images.svg" alt="Ícone de seguidores">266 fotos e vídeos</strong>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-
-        </ul>
-      </div>
-
-    </aside>
-    <section class="timeline">
-
-      <nav>
-        <a href="#" class="active">Tweets</a>
-        <a href="#">Tweets e respostas</a>
-        <a href="#">Mídias</a>
-      </nav>
-
-      <ul class="tweets">
-        <li>
-          <img src="./images/avatar.png" alt="Avatar" />
-          <div class="info">
-            <strong>Sam <span>@_sam</span></strong>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iusto beatae dignissimos magnam molestias
-              accusantium expedita </p>
-            <div class="actions">
-              <a href="#"> <img src="./images/comments.svg" alt="Comentários" /> 3</a>
-              <a href="#"> <img src="./images/retweet.svg" alt="Comentários" /> 4 </a>
-              <a href="#"> <img src="./images/like.svg" alt="Comentários" /> 5 </a>
-            </div>
-          </div>
-        </li>
-        <li>
-          <img src="./images/avatar.png" alt="Avatar" />
-          <div class="info">
-            <strong>Sam <span>@_sam</span></strong>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iusto beatae dignissimos magnam molestias
-              accusantium expedita </p>
-            <div class="actions">
-              <a href="#"> <img src="./images/comments.svg" alt="Comentários" /> 3</a>
-              <a href="#"> <img src="./images/retweet.svg" alt="Comentários" /> 4 </a>
-              <a href="#"> <img src="./images/like.svg" alt="Comentários" /> 5 </a>
-            </div>
-          </div>
-        </li>
-        <li>
-          <img src="./images/avatar.png" alt="Avatar" />
-          <div class="info">
-            <strong>Sam <span>@_sam</span></strong>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iusto beatae dignissimos magnam molestias
-              accusantium expedita </p>
-            <div class="actions">
-              <a href="#"> <img src="./images/comments.svg" alt="Comentários" /> 3</a>
-              <a href="#"> <img src="./images/retweet.svg" alt="Comentários" /> 4 </a>
-              <a href="#"> <img src="./images/like.svg" alt="Comentários" /> 5 </a>
-            </div>
-          </div>
-        </li>
-        <li>
-          <img src="./images/avatar.png" alt="Avatar" />
-          <div class="info">
-            <strong>Sam <span>@_sam</span></strong>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iusto beatae dignissimos magnam molestias
-              accusantium expedita </p>
-            <div class="actions">
-              <a href="#"> <img src="./images/comments.svg" alt="Comentários" /> 3</a>
-              <a href="#"> <img src="./images/retweet.svg" alt="Comentários" /> 4 </a>
-              <a href="#"> <img src="./images/like.svg" alt="Comentários" /> 5 </a>
-            </div>
-          </div>
-        </li>
-        <li>
-          <img src="./images/avatar.png" alt="Avatar" />
-          <div class="info">
-            <strong>Sam <span>@_sam</span></strong>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iusto beatae dignissimos magnam molestias
-              accusantium expedita </p>
-            <div class="actions">
-              <a href="#"> <img src="./images/comments.svg" alt="Comentários" /> 3</a>
-              <a href="#"> <img src="./images/retweet.svg" alt="Comentários" /> 4 </a>
-              <a href="#"> <img src="./images/like.svg" alt="Comentários" /> 5 </a>
-            </div>
-          </div>
-        </li>
-        <li>
-          <img src="./images/avatar.png" alt="Avatar" />
-          <div class="info">
-            <strong>Sam <span>@_sam</span></strong>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iusto beatae dignissimos magnam molestias
-              accusantium expedita </p>
-            <div class="actions">
-              <a href="#"> <img src="./images/comments.svg" alt="Comentários" /> 3</a>
-              <a href="#"> <img src="./images/retweet.svg" alt="Comentários" /> 4 </a>
-              <a href="#"> <img src="./images/like.svg" alt="Comentários" /> 5 </a>
-            </div>
-          </div>
-        </li>
-        <li>
-          <img src="./images/avatar.png" alt="Avatar" />
-          <div class="info">
-            <strong>Sam <span>@_sam</span></strong>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo iusto beatae dignissimos magnam molestias
-              accusantium expedita </p>
-            <div class="actions">
-              <a href="#"> <img src="./images/comments.svg" alt="Comentários" /> 3</a>
-              <a href="#"> <img src="./images/retweet.svg" alt="Comentários" /> 4 </a>
-              <a href="#"> <img src="./images/like.svg" alt="Comentários" /> 5 </a>
-            </div>
-          </div>
-        </li>
-      </ul>
-
-    </section>
-
-    <aside class="widgets">
-      <div class="widget follow">
-        <div class="title">
-          <strong>
-            Sugestões
-          </strong>
-          <a href="#">Atualizar</a>
-          <a href="#">Ver todos</a>
+  <body>
+    <header id="main-header">
+      <div class="content desktop">
+        <nav>
+          <ul>
+            <li><img src="./images/home.svg" alt="Home" />Home</li>
+            <li>
+              <img src="./images/notification.svg" alt="Home" />Notificações
+            </li>
+            <li><img src="./images/message.svg" alt="Home" />Mensagens</li>
+          </ul>
+        </nav>
+        <img src="./images/logo.svg" alt="logo twitter" />
+        <div class="side">
+          <input type="text" placeholder="Busque no twitter" />
+          <img src="./images/avatar.png" alt="avatar" />
+          <button>Tweet</button>
         </div>
+      </div>
+      <div class="menu-mobile content">
+        <nav>
+          <img
+            src="./images/logo.svg"
+            alt="logo twitter"
+            style="display: block; margin: 0 auto; margin-top: 15px"
+          />
+          <ul style="margin: 20px 05px">
+            <li><img src="./images/home.svg" alt="Home" />Home</li>
+            <li>
+              <img src="./images/notification.svg" alt="Home" />Notificações
+            </li>
+            <li><img src="./images/message.svg" alt="Home" />Mensagens</li>
+          </ul>
+        </nav>
+        <div class="side" style="margin-bottom: 10px">
+          <input type="text" placeholder="Busque no twitter" />
+          <img src="./images/avatar.png" alt="avatar" />
+          <button>Tweet</button>
+        </div>
+      </div>
+    </header>
+
+    <div class="banner"></div>
+
+    <div class="bar">
+      <div class="content">
         <ul>
-          <li>
-            <div class="profile">
-              <img src="./images/avatar.png" alt="avatar">
-              <div class="info">
-                <strong>Spade <span>@spade</span></strong>
-                <button>Seguir</button>
-              </div>
-            </div>
-            <a href="">X</a>
+          <li class="active">
+            <span>Tweets</span>
+            <strong>123</strong>
           </li>
           <li>
-            <div class="profile">
-              <img src="./images/avatar.png" alt="avatar">
-              <div class="info">
-                <strong>Spade <span>@spade</span></strong>
-                <button>Seguir</button>
-              </div>
-            </div>
-            <a href="">X</a>
+            <span>Seguindo</span>
+            <strong>657</strong>
           </li>
           <li>
-            <div class="profile">
-              <img src="./images/avatar.png" alt="avatar">
-              <div class="info">
-                <strong>Spade <span>@spade</span></strong>
-                <button>Seguir</button>
-              </div>
-            </div>
-            <a href="">X</a>
+            <span>Seguidores</span>
+            <strong>798</strong>
+          </li>
+          <li>
+            <span>Favoritos</span>
+            <strong>3645</strong>
           </li>
         </ul>
+        <div class="actions">
+          <button>Seguir</button>
+          <img src="./images/more.svg" alt="Mais" />
+        </div>
       </div>
+    </div>
 
-      <div class="widget trends"></div>
-    </aside>
-  </div>
-</body>
+    <div class="wrapper-content content">
+      <aside class="profile">
+        <img src="./images/avatar.png" class="avatar" alt="avatar" />
+        <h1>Duane Gabriel</h1>
+        <span>@duh.dev</span>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
+          perferendis nisi ducimus ut dicta ipsa, quos nobis necessitatibus
+          magnam harum cupiditate sequi. Esse recusandae nulla error hic quam
+          itaque officia.
+        </p>
+        <ul class="list">
+          <li>
+            <img src="./images/place.svg" alt="Ícone de localização" />
+            SP, Brasil
+          </li>
+          <li>
+            <img src="./images/url.svg" alt="Ícone de localização" />
+            meusite.com
+          </li>
+          <li>
+            <img src="./images/joined.svg" alt="Ícone de localização" />
+            Entrou em Jan de 2020
+          </li>
+          <li>
+            <img src="./images/born.svg" alt="Ícone de localização" />
+            Nasceu em maio de 1999
+          </li>
+        </ul>
 
+        <div class="widget followers">
+          <strong>
+            <img src="./images/followers.svg" alt="Ícone de seguidores" />73
+            seguidores que você conhece</strong
+          >
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+
+        <div class="widget images">
+          <strong>
+            <img src="./images/images.svg" alt="Ícone de seguidores" />266 fotos
+            e vídeos</strong
+          >
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </aside>
+      <section class="timeline">
+        <nav>
+          <a href="#" class="active">Tweets</a>
+          <a href="#">Tweets e respostas</a>
+          <a href="#">Mídias</a>
+        </nav>
+
+        <ul class="tweets">
+          <li>
+            <img src="./images/avatar.png" alt="Avatar" />
+            <div class="info">
+              <strong>Sam <span>@_sam</span></strong>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                iusto beatae dignissimos magnam molestias accusantium expedita
+              </p>
+              <div class="actions">
+                <a href="#">
+                  <img src="./images/comments.svg" alt="Comentários" /> 3</a
+                >
+                <a href="#">
+                  <img src="./images/retweet.svg" alt="Comentários" /> 4
+                </a>
+                <a href="#">
+                  <img src="./images/like.svg" alt="Comentários" /> 5
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="./images/avatar.png" alt="Avatar" />
+            <div class="info">
+              <strong>Sam <span>@_sam</span></strong>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                iusto beatae dignissimos magnam molestias accusantium expedita
+              </p>
+              <div class="actions">
+                <a href="#">
+                  <img src="./images/comments.svg" alt="Comentários" /> 3</a
+                >
+                <a href="#">
+                  <img src="./images/retweet.svg" alt="Comentários" /> 4
+                </a>
+                <a href="#">
+                  <img src="./images/like.svg" alt="Comentários" /> 5
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="./images/avatar.png" alt="Avatar" />
+            <div class="info">
+              <strong>Sam <span>@_sam</span></strong>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                iusto beatae dignissimos magnam molestias accusantium expedita
+              </p>
+              <div class="actions">
+                <a href="#">
+                  <img src="./images/comments.svg" alt="Comentários" /> 3</a
+                >
+                <a href="#">
+                  <img src="./images/retweet.svg" alt="Comentários" /> 4
+                </a>
+                <a href="#">
+                  <img src="./images/like.svg" alt="Comentários" /> 5
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="./images/avatar.png" alt="Avatar" />
+            <div class="info">
+              <strong>Sam <span>@_sam</span></strong>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                iusto beatae dignissimos magnam molestias accusantium expedita
+              </p>
+              <div class="actions">
+                <a href="#">
+                  <img src="./images/comments.svg" alt="Comentários" /> 3</a
+                >
+                <a href="#">
+                  <img src="./images/retweet.svg" alt="Comentários" /> 4
+                </a>
+                <a href="#">
+                  <img src="./images/like.svg" alt="Comentários" /> 5
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="./images/avatar.png" alt="Avatar" />
+            <div class="info">
+              <strong>Sam <span>@_sam</span></strong>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                iusto beatae dignissimos magnam molestias accusantium expedita
+              </p>
+              <div class="actions">
+                <a href="#">
+                  <img src="./images/comments.svg" alt="Comentários" /> 3</a
+                >
+                <a href="#">
+                  <img src="./images/retweet.svg" alt="Comentários" /> 4
+                </a>
+                <a href="#">
+                  <img src="./images/like.svg" alt="Comentários" /> 5
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="./images/avatar.png" alt="Avatar" />
+            <div class="info">
+              <strong>Sam <span>@_sam</span></strong>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                iusto beatae dignissimos magnam molestias accusantium expedita
+              </p>
+              <div class="actions">
+                <a href="#">
+                  <img src="./images/comments.svg" alt="Comentários" /> 3</a
+                >
+                <a href="#">
+                  <img src="./images/retweet.svg" alt="Comentários" /> 4
+                </a>
+                <a href="#">
+                  <img src="./images/like.svg" alt="Comentários" /> 5
+                </a>
+              </div>
+            </div>
+          </li>
+          <li>
+            <img src="./images/avatar.png" alt="Avatar" />
+            <div class="info">
+              <strong>Sam <span>@_sam</span></strong>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                iusto beatae dignissimos magnam molestias accusantium expedita
+              </p>
+              <div class="actions">
+                <a href="#">
+                  <img src="./images/comments.svg" alt="Comentários" /> 3</a
+                >
+                <a href="#">
+                  <img src="./images/retweet.svg" alt="Comentários" /> 4
+                </a>
+                <a href="#">
+                  <img src="./images/like.svg" alt="Comentários" /> 5
+                </a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <aside class="widgets">
+        <div class="widget follow">
+          <div class="title">
+            <strong> Sugestões </strong>
+            <a href="#">Atualizar</a>
+            <a href="#">Ver todos</a>
+          </div>
+          <ul>
+            <li>
+              <div class="profile">
+                <img src="./images/avatar.png" alt="avatar" />
+                <div class="info">
+                  <strong>Spade <span>@spade</span></strong>
+                  <button>Seguir</button>
+                </div>
+              </div>
+              <a href="">X</a>
+            </li>
+            <li>
+              <div class="profile">
+                <img src="./images/avatar.png" alt="avatar" />
+                <div class="info">
+                  <strong>Spade <span>@spade</span></strong>
+                  <button>Seguir</button>
+                </div>
+              </div>
+              <a href="">X</a>
+            </li>
+            <li>
+              <div class="profile">
+                <img src="./images/avatar.png" alt="avatar" />
+                <div class="info">
+                  <strong>Spade <span>@spade</span></strong>
+                  <button>Seguir</button>
+                </div>
+              </div>
+              <a href="">X</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="widget trends"></div>
+      </aside>
+    </div>
+  </body>
 </html>
