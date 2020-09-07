@@ -484,15 +484,38 @@ div.wrapper-content aside.widgets .follow ul li > a {
   color: #ccd6dd;
   font-size: 12px;
 }
+.menu-mobile {
+  display: none !important;
+}
 
 @media (max-width: 768px) {
   .menu-mobile {
-    display: flex;
+    display: flex !important;
   }
   .desktop {
     display: none !important;
   }
   #main-header {
     height: auto !important;
+  }
+  .wrapper-content,
+  .bar .content,
+  .bar .content ul {
+    flex-wrap: wrap !important;
+  }
+  .timeline {
+    margin: 10px 0 20px !important;
+    order: 2;
+  }
+  .menu-mobile.content {
+    justify-content: center !important;
+    padding: unset !important;
+  }
+  .profile,
+  .widgets {
+    flex: 1;
+  }
+  .widgets {
+    order: 1;
   }
 }
