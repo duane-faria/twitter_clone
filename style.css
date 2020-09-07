@@ -518,4 +518,16 @@ div.wrapper-content aside.widgets .follow ul li > a {
   .widgets {
     order: 1;
   }
+  div.wrapper-content aside.profile .followers ul li {
+    flex-grow: 0 !important;
+  }
+  .bar .content {
+    display: none !important;
+  }
+
+  div.wrapper-content aside.profile img.avatar {
+    display: block;
+    margin: 0 auto;
+    margin-top: -130px;
+  }
 }
